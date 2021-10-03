@@ -1,0 +1,94 @@
+/*
+Theme Name: Steinerskolans theme
+Theme URI:
+Author: RM and LJ
+Author URI:
+Description: A theme made for Steinerskolan in Gbg.
+Version: 1.0
+*/
+@font-face {
+  font-family: "Antropos";
+  src: url("./assets/fonts/antrf___.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Poppins";
+  src: url("./assets/fonts/Poppins-Light.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("./assets/fonts/RobotoMono-Regular.woff2") format("woff2");
+}
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Antropos", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+}
+
+a {
+  font-family: "Roboto", sans-serif;
+}
+.blob1 {
+  position: absolute;
+  right: 0px;
+  top: 4px;
+  fill: #e5f8f4;
+}
+.blob2 {
+  position: absolute;
+  left: 0px;
+  top: 600px;
+  z-index: -1;
+  fill: #e5f8f4;
+}
+
+.blob {
+  position: absolute;
+  right: 0px;
+  top: 20px;
+  transform: rotate(-180deg);
+  z-index: -1;
+  display: none;
+}
+
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+@media only screen and (max-width: 600px) {
+  .blob2 {
+    zoom: 0.4;
+    left: 0px;
+    top: 900px;
+    z-index: -1;
+    fill: #ffe8e1;
+  }
+  .blob {
+    display: block;
+  }
+  .blob1 {
+    display: none;
+  }
+}

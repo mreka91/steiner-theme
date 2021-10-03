@@ -1,0 +1,32 @@
+.images-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.image2-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.one {
+  border: 5px solid #ffffff;
+  width: 129px;
+  height: 132px;
+  border-radius: 62% 38% 76% 24% / 63% 66% 34% 37%;
+}
+
+.two {
+  border: 5px solid #ffffff;
+  width: 175px;
+  height: 171px;
+  border-radius: 60% 40% 56% 44% / 30% 66% 34% 70%;
+}
+
+.three {
+  border: 5px solid #ffffff;
+  width: 153px;
+  height: 137px;
+  border-radius: 45% 55% 51% 49% / 63% 66% 34% 37%;
+  margin-top: -60px;
+}
