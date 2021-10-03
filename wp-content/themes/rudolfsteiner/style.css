@@ -52,6 +52,7 @@ a {
   right: 0px;
   top: 4px;
   fill: #e5f8f4;
+  z-index: -1;
 }
 .blob2 {
   position: absolute;

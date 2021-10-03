@@ -1,0 +1,33 @@
+.alumni-img {
+  border-radius: 38% 62% 54% 46% / 39% 60% 40% 61%;
+  width: 90% !important;
+}
+.alumni-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 80px;
+  text-align: center;
+}
+.alumni-container h3 {
+  padding: 25px;
+}
+.alumni-container p {
+  padding-left: 150px;
+}
+@media only screen and (min-width: 800px) {
+  .alumni-container {
+    flex-direction: row;
+  }
+
+  .alumni-img {
+    width: 50% !important;
+  }
+
+  .alumni-container p {
+    padding-left: 0px;
+    align-self: end;
+    padding-bottom: 10%;
+  }
+}
