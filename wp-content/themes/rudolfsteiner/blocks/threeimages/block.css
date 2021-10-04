@@ -30,3 +30,20 @@
   border-radius: 45% 55% 51% 49% / 63% 66% 34% 37%;
   margin-top: -60px;
 }
+
+@media only screen and (min-width: 800px) {
+  .one {
+    width: 446px;
+    height: 454px;
+  }
+  .two {
+    width: 604px;
+    height: 591px;
+  }
+
+  .three {
+    width: 527px;
+    height: 472px;
+    margin-top: -250px;
+  }
+}

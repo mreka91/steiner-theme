@@ -2,7 +2,7 @@
   border-radius: 38% 62% 54% 46% / 39% 60% 40% 61%;
   width: 90% !important;
 }
-.alumni-container {
+.alumni-two-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -10,24 +10,24 @@
   padding-bottom: 80px;
   text-align: center;
 }
-.alumni-container h3 {
+.alumni-two-container h3 {
   padding: 25px;
 }
-.alumni-container p {
+.alumni-two-container p {
   padding-left: 150px;
 }
 @media only screen and (min-width: 800px) {
-  .alumni-container {
-    flex-direction: row;
+  .alumni-two-container {
+    flex-direction: row-reverse;
   }
 
   .alumni-img {
     width: 30% !important;
   }
-  .alumni-container h3 {
+  .alumni-two-container h3 {
     width: 436px;
   }
-  .alumni-container p {
+  .alumni-two-container p {
     padding-left: 0px;
     align-self: end;
     padding-bottom: 10%;

@@ -71,6 +71,14 @@ a {
   display: none;
 }
 
+.blob3 {
+  position: absolute;
+  right: 0px;
+  top: 1800px;
+  z-index: -1;
+  fill: #e5f8f4;
+}
+
 .home {
   display: flex;
   align-items: center;
@@ -89,7 +97,8 @@ a {
   .blob {
     display: block;
   }
-  .blob1 {
+  .blob1,
+  .blob3 {
     display: none;
   }
 }
