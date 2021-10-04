@@ -79,6 +79,13 @@ a {
   fill: #e5f8f4;
 }
 
+.blob4 {
+  position: absolute;
+  left: -50px;
+  top: 3300px;
+  z-index: -1;
+  fill: #e5f8f4;
+}
 .home {
   display: flex;
   align-items: center;
@@ -98,7 +105,8 @@ a {
     display: block;
   }
   .blob1,
-  .blob3 {
+  .blob3,
+  .blob4 {
     display: none;
   }
 }
