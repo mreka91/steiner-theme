@@ -8,13 +8,17 @@
   justify-content: center;
   flex-direction: column;
   padding-bottom: 80px;
-  text-align: center;
+  text-align: right;
 }
 .alumni-two-container h3 {
   padding: 25px;
+  font-size: 20px;
+  font-weight:bold;
 }
 .alumni-two-container p {
   padding-left: 150px;
+  font-size: 16px;
+  
 }
 @media only screen and (min-width: 800px) {
   .alumni-two-container {
@@ -26,10 +30,12 @@
   }
   .alumni-two-container h3 {
     width: 436px;
+    font-size: 25px;
   }
   .alumni-two-container p {
     padding-left: 0px;
     align-self: end;
     padding-bottom: 10%;
+    font-size: 20px;
   }
 }

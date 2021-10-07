@@ -41,7 +41,16 @@
 
         </svg>
 
+        <?php wp_nav_menu(
+            [
+                'theme_location' => __('klass'),
+                'menu_class' => __('klass-navigation')
+            ]
+        ); ?>
+
         <?php the_content(); ?>
+
+
 
     <?php endwhile; ?>
 

@@ -1,16 +1,24 @@
+.down-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .down {
   background-color: #94d0c6;
-  margin-top: 50px;
   width: 65px;
   height: 63px;
   border-radius: 41% 59% 50% 50% / 30% 54% 46% 70%;
   display: flex;
   align-items: center;
   justify-content: center;
-  animation: jump 0.4s ease alternate infinite;
-
   margin-bottom: 100px;
 }
+
+.down img{
+  animation: jump 0.4s ease alternate infinite;
+}
+
 @keyframes jump {
   from {
     transform: translateY(0);
