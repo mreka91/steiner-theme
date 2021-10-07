@@ -45,45 +45,83 @@ h3,p {
   font-family: "Poppins", sans-serif;
 }
 
-.blob1 {
+/*SVGs*/
+.form1{
   position: absolute;
   right: 0px;
   top: 4px;
-  fill: #e5f8f4;
   z-index: -1;
-}
-.blob2 {
-  position: absolute;
-  left: 0px;
-  top: 600px;
-  z-index: -1;
-  fill: #e5f8f4;
 }
 
-.blob {
+.form1-mobile{
   position: absolute;
   right: 0px;
-  top: 20px;
-  transform: rotate(-180deg);
+  top: -80px;
   z-index: -1;
-  display: none;
 }
 
-.blob3 {
+.form2{
   position: absolute;
-  right: 0;
+  left: 0px;
+  top: 500px;
+  z-index: -1;
+}
+
+.form2-mobile{
+  position: absolute;
+  left: -20px;
+  top: 450px;
+  z-index: -1;
+}
+
+.form3{
+  position: absolute;
+  right: 0px;
   top: 1800px;
   z-index: -1;
-  fill: #e5f8f4;
+  
 }
 
-.blob4 {
+.form3-mobile{
+  position: absolute;
+  right: 0px;
+  top: 1050px;
+  z-index: -1;
+  display:none;
+}
+
+.form4{
   position: absolute;
   left: 0px;
   top: 3000px;
   z-index: -1;
-  fill: #e5f8f4;
+  
 }
+
+.form4-mobile{
+  position: absolute;
+  left: 0px;
+  top: 1600px;
+  z-index: -1;
+  display:none;
+}
+
+.form5-mobile{
+  position: absolute;
+  right: 0px;
+  top: 2500px;
+  z-index: -1;
+  display:none;
+}
+
+.form6-mobile{
+  position: absolute;
+  left: 0px;
+  top: 3000px;
+  z-index: -1;
+  display:none;
+}
+
 .home {
   display: flex;
   align-items: center;
@@ -94,25 +132,18 @@ h3,p {
 
 
 @media only screen and (max-width: 600px) {
-  .blob2 {
-    zoom: 0.4;
-    left: 0px;
-    top: 900px;
-    z-index: -1;
-    fill: #ffe8e1;
-  }
-  .blob {
-    display: block;
-  }
-  .blob1,
-  .blob3,
-  .blob4 {
-    display: none;
-  }
 
   .wp-image-86{
     width:186px;
     height:193px;
+  }
+
+  .form1-mobile, .form2-mobile, .form3-mobile, .form4-mobile, .form5-mobile, .form6-mobile{
+    display:block;
+    }
+
+  .form1, .form2, .form3, .form4, .form5, .form6{
+  display:none;
   }
 }
 
@@ -122,27 +153,29 @@ h3,p {
 
 header {
   width: 100%;
-  height: 100px;
+  height: 90px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  background-color: white;
+  border-bottom: solid 2px #EBF6F4; 
 }
 
 .navblob{
   position: absolute;
   left: 0px;
-  top: 5%;
+  top: 200px;
   fill: #e5f8f4;
 }
 .navblob2{
   position: absolute;
   right: 0px;
-  top: 30%;
+  top: 400px;
   fill: #e5f8f4;
 }
 .nav-socials{
   position:fixed;
-  bottom:5%;
+  bottom:10%;
   left:10%;
 }
 
@@ -252,7 +285,7 @@ header .top-bar .menu-item-has-children:active .sub-menu {
   position: absolute;
   z-index: 10;
   left: 10px;
-  top: 20px;
+  top: 10px;
   cursor: pointer;
   border: 1px solid black;
   border-radius: 40% 60% 30% 50%;
@@ -261,22 +294,17 @@ header .top-bar .menu-item-has-children:active .sub-menu {
   font-family: "Poppins";
 }
 
-/* .toggle-btn:hover {
-  background-color: rgba(124, 212, 183, 0.438);
-} */
+
 .toggle-btn .bar {
   display:none;
 }
-/* .toggle-btn .bar:nth-child(2) {
-  width: 20px;
-  background-color: rgba(63, 63, 216, 0.733);
-}  */
+
 #toggle:checked ~ nav {
   opacity: 1;
   visibility: visible;
 }
 #toggle:checked ~ nav ul {
-  top: 70px;
+  top: 5px;
 }
 #toggle:checked ~ nav ul li {
   transform: translateY(0px);
@@ -319,6 +347,7 @@ header .top-bar .menu-item-has-children:active .sub-menu {
 @media only screen and (max-width: 600px) {
   nav ul {
     flex-direction: column;
+    left:30%;
   }
   .toggle-btn{
     border:none;
@@ -340,20 +369,12 @@ header .top-bar .menu-item-has-children:active .sub-menu {
     border:1px solid black;
   }
 
-/*   .logo {
-    width: 150px;
-    margin-left: 20%;
-  } */
-
   .blobheader,
   .toggle-btn {
     padding: 7px 5px;
     font-size: 18px;
   }
 
-/*   .blobheader{
-    margin-right:15px;
-  } */
   header .top-bar li a{
     font-size:28px;
   }
@@ -369,7 +390,7 @@ footer {
   justify-content: center;
   align-items: center;
   width:100%;
-  height: 530px;
+  /* height: 530px; */
   bottom: 0px;
   background-color: #f2f2f2;
   
@@ -388,6 +409,7 @@ text-decoration: underline;
 footer h2 {
   text-transform: uppercase;
   text-align: center;
+  padding-top:20px;
 }
 
 footer li {
@@ -420,7 +442,7 @@ footer li a {
 
 @media screen and (min-width: 992px) {
   footer h2 {
-    margin-left: 70px;
+    margin-left: 30px;
     
   }
 
@@ -445,6 +467,8 @@ footer li a {
   }
 }
 
+
+/*KLASS page*/
 
 .menu-klass-container{
   position:absolute;
