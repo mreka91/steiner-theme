@@ -2,11 +2,6 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 90px;
+  margin-top: 120px;
 }
-.first {
-  margin-left: 30px;
-}
-.second {
-  align-self: flex-end;
-}
+

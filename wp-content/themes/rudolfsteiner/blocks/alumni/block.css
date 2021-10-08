@@ -1,6 +1,6 @@
 .alumni-img {
   border-radius: 38% 62% 54% 46% / 39% 60% 40% 61%;
-  width: 90% !important;
+  width: 70% !important;
 }
 .alumni-container {
   display: flex;
@@ -11,11 +11,10 @@
   text-align: left;
 }
 .alumni-container h3 {
-  padding: 25px;
+  padding:  40px 40px  20px 40px;
   font-size: 20px;
 }
 .alumni-container p {
-  padding-left: 150px;
   font-size: 16px;
 }
 @media only screen and (min-width: 800px) {
@@ -31,7 +30,6 @@
     font-size: 25px;
   }
   .alumni-container p {
-    padding-left: 0px;
     align-self: end;
     padding-bottom: 10%;
     font-size: 20px;

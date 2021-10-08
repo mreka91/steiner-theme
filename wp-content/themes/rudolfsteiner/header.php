@@ -20,7 +20,7 @@
             <div class="bar"></div>
             <div class="bar"></div>
             <div class="bar"></div>
-            <span>Menu</span>
+            <span>Meny</span>
         </label>
         <nav>
         <img src="<?=get_template_directory_uri();?>/assets/images/Blobb2mobil.svg" class="navblob"/>
@@ -42,6 +42,6 @@
 
     <a class="logo" href="<?= home_url(); ?>"> </a>
             
-    <div class="blobheader"><a href="<?=home_url('/index.php/ansokan');?>">Ansökan</a></div>
+    <div class="blobheader"><a href="<?=home_url('/index.php/ansokan');?>">Ansök</a></div>
 
 </header>

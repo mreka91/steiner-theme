@@ -1,0 +1,32 @@
+.waldorf-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.waldorf-container p{
+    padding:10px 30px;
+}
+
+.waldorf-container a{
+    font-family:"Poppins";
+    border: 1px solid black;
+    color:black;
+    text-decoration: none;
+    padding:15px;
+    border-radius:45%;
+    margin-bottom:25px;
+    cursor: pointer;
+}
+
+.waldorf-container a:hover{
+    text-decoration: underline;
+}
+
+@media only screen and (min-width: 800px) {
+    .waldorf-container p {
+        padding:10px 346px;
+        text-align:justify;
+    }
+  }

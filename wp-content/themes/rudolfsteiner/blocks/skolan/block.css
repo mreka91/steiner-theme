@@ -1,0 +1,18 @@
+.skolan-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom:35px;
+}
+
+.skolan-container p{
+    padding:10px 30px;
+}
+
+@media only screen and (min-width: 800px) {
+    .skolan-container p {
+        padding:10px 346px;
+        text-align:justify;
+    }
+  }
