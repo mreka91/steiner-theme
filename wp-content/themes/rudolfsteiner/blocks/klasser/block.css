@@ -1,0 +1,30 @@
+.klasser-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-bottom:35px;
+}
+
+.klasser-container p{
+    padding:10px 50px;
+    text-align: center;
+    
+}
+
+.klasser-img{
+    border-radius: 45% ;
+    width:60%;
+}
+
+@media only screen and (min-width: 800px) {
+    .klasser-container p {
+        padding:10px 345px;
+        
+        
+    }
+
+    .klasser-img{
+        width:30%;
+    }
+  }

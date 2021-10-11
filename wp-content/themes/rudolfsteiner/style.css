@@ -524,16 +524,16 @@ gap:35px;
 
 .menu-klass-container{
   position:absolute;
-  top:800px;
+  top:1350px;
   width:100%;
   height:50px;
-  background-color:white;
 }
 
 .klass-navigation {
   display:flex;
   align-items:center;
-  justify-content:space-around;
+  justify-content:center;
+  gap:25px;
 }
 
 .klass-navigation li {
@@ -544,6 +544,23 @@ gap:35px;
 .klass-navigation li a{
   text-decoration: none;
   color:black;
-  font-size:25px;
+  font-size:18px;
   font-family: "Poppins";
+  font-weight: bold;
+}
+
+@media only screen and (min-width: 900px) {
+  .klass-navigation li a{
+   
+    font-size:25px;
+  
+  }
+
+  .menu-klass-container{
+    top:1450px;
+  }
+
+  .klass-navigation{
+    gap:50px;
+  }
 }
