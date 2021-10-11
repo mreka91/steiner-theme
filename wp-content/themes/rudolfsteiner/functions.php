@@ -8,7 +8,7 @@ add_action('after_setup_theme', function () {
 
     register_nav_menus([
         'top-menu' => __('Top Menu Location'),
-        'footer' => __('Footer Menu Location'),
+        'footer-menu' => __('Footer Menu Location'),
         'klass' => __('Page Menu Location'),
     ]);
 });

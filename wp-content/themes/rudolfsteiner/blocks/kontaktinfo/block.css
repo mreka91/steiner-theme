@@ -1,0 +1,59 @@
+.kontakt-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.kontakt-container h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding: 60px 60px 15px 60px;
+  font-size: 20px;
+}
+
+.kontakt-container li {
+  margin: 30px;
+  display:flex;
+  flex-direction: row;
+  list-style-type: none;
+
+}
+
+.kontakt-container li img {
+  margin-right: 25px;
+  width:16px;
+  height:19px;
+} 
+
+.kontakt-container li a {
+  text-decoration: none;
+  color: black;
+  font-family: "Poppins";
+  font-size: 16px;
+}
+
+.socialmedia{
+  display:flex;
+  flex-direction:row;
+  gap:25px;
+}
+
+
+
+@media only screen and (min-width: 800px) {
+
+  .kontakt-container li img{
+    width: 25px;
+    height: 29px;
+  }
+
+  .kontakt-container li:nth-child(2) img{
+    width: 34px;
+    height: 34px;
+  }
+
+  .kontakt-container li:nth-child(3) img{
+    width: 36px;
+    height: 31px;
+  }
+  }

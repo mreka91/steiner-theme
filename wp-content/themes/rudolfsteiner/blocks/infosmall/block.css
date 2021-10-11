@@ -1,4 +1,4 @@
-.info-container {
+.info-small-container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -6,25 +6,25 @@
   text-align: center;
 }
 
-.info-container h2 {
+.info-small-container h2 {
   font-size: 25px;
   padding: 30px;
   margin-top: 50px;
 }
 
-.info-container p {
+.info-small-container p {
   font-size: 16px;
   padding: 25px;
   
 }
 
 @media only screen and (min-width: 800px) {
-  .info-container p {
+  .info-small-container p {
     width: 750px;
     font-size: 20px;
   }
 
-  .info-container h2 {
+  .info-small-container h2 {
     font-size: 39px;
     width: 750px;
   }
