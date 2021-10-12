@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-.info-small-container h2 {
+.info-small-title{
   font-size: 25px;
   padding: 30px;
   margin-top: 50px;
@@ -24,8 +24,8 @@
     font-size: 20px;
   }
 
-  .info-small-container h2 {
-    font-size: 39px;
+  .info-small-title {
+    font-size: 32px;
     width: 750px;
   }
 }

@@ -163,7 +163,9 @@ header {
   position:fixed;
   top:0; 
 }
-
+/* .top-bar li:last-child{
+  margin-top:550px;
+  }  */
 .navblob{
   position: absolute;
   left: 0px;
@@ -201,9 +203,9 @@ header {
 
 .blobheader {
   background: #E66E6D;
-  margin-right: 10px;
+  margin-right: 50px;
   color: #fff;
-  padding: 7px 15px;
+  padding: 5px 12px;
   font-size: 22px;
   box-shadow: 0 0px 4px 4px rgba(0, 0, 0, 0.1);
   border-radius: 40% 60% 30% 50%;
@@ -215,6 +217,7 @@ header {
   color: white;
   font-family: "Poppins";
   font-weight:bold;
+  font-size:20px;
 }
 
 nav {
@@ -255,6 +258,7 @@ header .top-bar li a {
   font-size:40px;
   color: black;
   position: relative;
+  white-space: nowrap;
 }
 header .top-bar li a:hover {
   text-decoration: underline;
@@ -286,21 +290,17 @@ header .top-bar .menu-item-has-children:active .sub-menu {
   z-index: 99;
 }
 
-.top-bar li:last-child{
-margin-top:550px;
-} 
-
 .toggle-btn {
   display: block;
   position: absolute;
   z-index: 10;
-  left: 10px;
+  left: 50px;
   top: 18px;
   cursor: pointer;
   border: 1px solid black;
   border-radius: 40% 60% 30% 50%;
-  padding: 7px 15px;
-  font-size: 22px;
+  padding: 5px 12px;
+  font-size: 20px;
   font-family: "Poppins";
 }
 
@@ -346,7 +346,7 @@ margin-top:550px;
 .menu-item-has-children::after {
   position: absolute;
   content: "+";
-  right: 0;
+  right: 0px;
 }
 
 
@@ -469,6 +469,11 @@ footer li img {
   height:19px;
 } 
 
+footer li:nth-child(3) img{
+  width: 21px;
+  height: 17px;
+}
+
 footer li a {
   text-decoration: none;
   color: black;
@@ -579,10 +584,13 @@ gap:35px;
   }
 
   .menu-klass-container{
-    top:1500px;
+    top:1700px;
   }
 
   .klass-navigation{
     gap:50px;
   }
 }
+
+
+

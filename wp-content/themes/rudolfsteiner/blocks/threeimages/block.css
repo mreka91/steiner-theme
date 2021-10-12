@@ -34,17 +34,17 @@
 
 @media only screen and (min-width: 800px) {
   .one {
-    width: 446px;
-    height: 454px;
+    width: 378px;
+    height: 385px;
   }
   .two {
-    width: 604px;
-    height: 591px;
+    width: 513px;
+    height: 501px;
   }
 
   .three {
-    width: 527px;
-    height: 472px;
+    width: 448px;
+    height: 400px;
     margin-top: -250px;
   }
 }

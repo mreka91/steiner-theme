@@ -25,6 +25,11 @@
   height:19px;
 } 
 
+.kontakt-container li:nth-child(3) img{
+  width: 21px;
+  height: 17px;
+}
+
 .kontakt-container li a {
   text-decoration: none;
   color: black;
@@ -41,6 +46,10 @@
 
 
 @media only screen and (min-width: 800px) {
+
+  .kontakt-container h1, h2{
+    font-size:32px;
+  }
 
   .kontakt-container li img{
     width: 25px;
