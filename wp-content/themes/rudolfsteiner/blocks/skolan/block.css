@@ -8,11 +8,20 @@
 
 .skolan-container p{
     padding:10px 30px;
+    text-align:center;
+}
+
+.skolan-img{
+    width:20%;
 }
 
 @media only screen and (min-width: 800px) {
     .skolan-container p {
         padding:10px 346px;
         text-align:justify;
+    }
+
+    .skolan-img{
+        width:5%;
     }
   }

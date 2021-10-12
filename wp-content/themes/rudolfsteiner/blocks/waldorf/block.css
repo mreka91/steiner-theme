@@ -7,8 +7,11 @@
 
 .waldorf-container p{
     padding:10px 30px;
+    text-align:center;
 }
-
+.waldorf-img{
+    width:20%;
+}
 .waldorf-container a{
     font-family:"Poppins";
     border: 1px solid black;
@@ -28,5 +31,9 @@
     .waldorf-container p {
         padding:10px 346px;
         text-align:justify;
+    }
+
+    .waldorf-img{
+        width:5%;
     }
   }

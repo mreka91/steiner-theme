@@ -286,9 +286,9 @@ header .top-bar .menu-item-has-children:active .sub-menu {
   z-index: 99;
 }
 
-/* .top-bar li:last-child{
-margin-top:500px;
-} */
+.top-bar li:last-child{
+margin-top:550px;
+} 
 
 .toggle-btn {
   display: block;
@@ -353,8 +353,6 @@ margin-top:500px;
 .menu-item-has-children:hover {
   margin-bottom: 300px;
 }
-
-
 
 
 @media only screen and (max-width: 600px) {
