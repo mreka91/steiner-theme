@@ -1,0 +1,31 @@
+.employee-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding:30px;
+}
+
+.employee-container h4{
+  padding-top:25px;
+}
+
+.employee-container p{
+    
+    text-align:center;
+}
+
+.employee-img {
+    border-radius: 38% 62% 54% 46% / 39% 60% 40% 61%;
+    width: 70% !important;
+  }
+
+
+
+@media only screen and (min-width: 800px) {
+  .employee-img {
+    width: 20% !important;
+  }
+
+
+  }
